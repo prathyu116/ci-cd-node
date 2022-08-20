@@ -3,7 +3,7 @@ name: Run basic tests
 on: 
   push:
     branches:
-      - "feature"
+      - "featureb"
 
 jobs:
   run_jest_tests:
@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-node@v1
         with: 
           node-version: 16
-      - run: npm 
-      - run: npm test
+      - run: yarn 
+      - run: yarn test
